@@ -1,8 +1,7 @@
 import java.util.*;
 public class Application {
     public static void main(String[] args) {
-        StringFunctions operations = new StringFunctions();
-        Scanner input = new Scanner(System.in);
+        StringFunctions operations = new StringFunctions(); //class StringFumctions is called
         System.out.println("Enter the string: ");
         String inputString = input.nextLine();
         input.close();
